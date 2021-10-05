@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a,
+  div,
+  p,
+  span,
+  input,
+  button,
+  form {
+    box-sizing: border-box;
+    border: 0 none;
+  }
+  
+  a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1225px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
