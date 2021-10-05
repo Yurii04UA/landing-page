@@ -1,0 +1,26 @@
+.sitebar{
+    width: 300px;
+    height: 100vh;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.page-header{
+    height: 50px;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    max-width: inherit;
+    width: inherit;
+    padding-left: 300px;
+}
+
+.hero-section{
+    padding-left: 300px;
+    padding-top: 55px;
+    align-items: center;
+}
