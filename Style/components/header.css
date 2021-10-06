@@ -1,0 +1,11 @@
+.header{
+    height: 50px;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    max-width: inherit;
+    width: inherit;
+    padding-left: 300px;
+}
+
