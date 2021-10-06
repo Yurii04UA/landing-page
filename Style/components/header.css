@@ -2,12 +2,15 @@
     position: fixed;
     z-index: 1000;
     top: 0;
+
     max-width: inherit;
     width: inherit;
     padding-left: 315px;
+    padding-right: 15px;
     background-color: rgb(223, 193, 193);
+    display: flex;   
+    line-height: 0;
 }
-
 .header-menu-left-list, .header-menu-rigth-list {
     display: flex;
     padding-left: 0px;
@@ -23,4 +26,15 @@
     color: #000;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.header-menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.header-menu-left{
+    width: 60%;
 }
