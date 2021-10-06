@@ -1,11 +1,26 @@
 .header{
-    height: 50px;
-    background-color: burlywood;
     position: fixed;
     z-index: 1000;
     top: 0;
     max-width: inherit;
     width: inherit;
-    padding-left: 300px;
+    padding-left: 315px;
+    background-color: rgb(223, 193, 193);
 }
 
+.header-menu-left-list, .header-menu-rigth-list {
+    display: flex;
+    padding-left: 0px;
+}
+
+.header-menu-left-list-item{
+    display: block;
+    margin-right: 15px;
+}
+
+
+.header a{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
