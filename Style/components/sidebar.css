@@ -104,15 +104,15 @@
 
 
 .skills-box-image{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 }
 
 /* SKILLS LEVEL */
 
 .skills-box-level-item{
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     border:1px solid white;
     margin-bottom: 20px;
@@ -131,10 +131,10 @@
 .skills-level-css .skills-box-level-item:nth-child(-n+3){
     background-color: white;
 }
-.skills-level-java_script .skills-box-level-item:nth-child(-n+2){
+.skills-level-java_script .skills-box-level-item:nth-child(-n+1){
     background-color: white;
 }
-.skills-level-react .skills-box-level-item:nth-child(-n+1){
+/* .skills-level-react .skills-box-level-item:nth-child(-n+1){
     background-color: white;
 }
 .skills-level-node .skills-box-level-item:nth-child(-n+1){
@@ -148,4 +148,4 @@
 }
 .skills-level-mysql .skills-box-level-item:nth-child(-n+1){
     background-color: white;
-}
+} */
