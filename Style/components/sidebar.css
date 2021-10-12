@@ -1,7 +1,5 @@
 .sitebar{
     width: 300px;
-    height: 100%;
-    background-color: #ccc;
     position: absolute;
     top: 0;
     z-index: 1000;
@@ -58,12 +56,12 @@
     margin-bottom: 50px;
 }
 .sitebar-skills{
-    height: 300px;
     background-color: #1f476b;
     color: white;
     position: relative;
 
     padding: 0 20px;
+    padding-bottom: 20px;
 }
 
 .sitebar-skills-title{
@@ -83,11 +81,41 @@
     font-size: 22px;
 }
 
+.skills-box-primary{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills-box-secondary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-box-list{
+    padding: 0 10px;
+}
+
+.skills-box-item{
+    margin-bottom: 10px;
+    
+}
+
+
+
+.skills-box-image{
+    width: 55px;
+    height: 55px;
+}
+
+/* SKILLS LEVEL */
+
 .skills-box-level-item{
-    width: 10px;
-    height: 10px;
-    background-color: white;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
+    border:1px solid white;
+    margin-bottom: 20px;
 }
 
 .skills-box-level{
@@ -95,6 +123,29 @@
     justify-content: space-between;
 }
 
-.skills-box{
-    display: flex;
+/* SKILLS LEVEL CIRCLES*/
+
+.skills-level-html .skills-box-level-item:nth-child(-n+3){
+    background-color: white;
+}
+.skills-level-css .skills-box-level-item:nth-child(-n+3){
+    background-color: white;
+}
+.skills-level-java_script .skills-box-level-item:nth-child(-n+2){
+    background-color: white;
+}
+.skills-level-react .skills-box-level-item:nth-child(-n+1){
+    background-color: white;
+}
+.skills-level-node .skills-box-level-item:nth-child(-n+1){
+    background-color: white;
+}
+.skills-level-angular .skills-box-level-item:nth-child(-n+1){
+    background-color: white;
+}
+.skills-level-vue .skills-box-level-item:nth-child(-n+1){
+    background-color: white;
+}
+.skills-level-mysql .skills-box-level-item:nth-child(-n+1){
+    background-color: white;
 }
