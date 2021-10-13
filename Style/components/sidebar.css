@@ -155,10 +155,9 @@
 
 
 .sitebar-hobbies{
-    height: 300px;
     background-color: #3375a9;
     color: white;
-    padding: 0 20px 20px 20px;
+    padding: 0 40px 20px 40px;
 }
 
 .sitebar-hobbies-title{
@@ -172,6 +171,64 @@
 }
 
 .sitebar-hobbies-title-item{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.hobbies-list-item-img{
+    width: 40px;
+    height: 40px;
+}
+
+.hobbies-list-item-img-music{
+    width: 35px;
+    height: 35px;
+}
+
+.hobbies-list-item{
+    margin-bottom: 20px;
+}
+
+.sitebar-hobbies-box-list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hobbies-list-item-all{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hobbies-list-item-all-img{
+    width: 64px;
+    height: 64px;
+}
+
+/* Sitebar contact */
+
+.sitebar-contact{
+    height: 200px;
+    background-color: #4499b9;
+    color: white;
+    padding: 0 40px 20px 40px;
+}
+
+.sitebar-contact-title{
+    max-width: 160px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #4499b9;
+    position: relative;
+    top: -15px;
+}
+
+.sitebar-contact-title-item{
     text-align: center;
     line-height: 30px;
     font-weight: 500;
