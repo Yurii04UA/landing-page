@@ -55,6 +55,8 @@
     background-color: rgb(209, 207, 207);
     margin-bottom: 50px;
 }
+/* sitebar Skills */
+
 .sitebar-skills{
     background-color: #1f476b;
     color: white;
@@ -100,8 +102,6 @@
     margin-bottom: 10px;
     
 }
-
-
 
 .skills-box-image{
     width: 50px;
@@ -149,3 +149,31 @@
 .skills-level-mysql .skills-box-level-item:nth-child(-n+1){
     background-color: white;
 } */
+
+
+/* sitebar interest */
+
+
+.sitebar-hobbies{
+    height: 300px;
+    background-color: #3375a9;
+    color: white;
+    padding: 0 20px 20px 20px;
+}
+
+.sitebar-hobbies-title{
+    max-width: 160px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #3375a9;
+    position: relative;
+    top: -15px;
+}
+
+.sitebar-hobbies-title-item{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 22px;
+}
