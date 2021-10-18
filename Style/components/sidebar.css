@@ -212,7 +212,6 @@
 /* Sitebar contact */
 
 .sitebar-contact{
-    height: 200px;
     background-color: #4499b9;
     color: #0d333d;
     padding: 0 40px 20px 40px;
@@ -235,18 +234,47 @@
     font-size: 20px;
 }
 
+
 .sitebar-contact-info{
-  
+  letter-spacing: -0.03em;
 }
 
-.sitebar-contact-location-item{
+
+
+
+.sitebar-contact-location-backgraund{
+    width: 26px;
+    height: 24px;
+    background-image: url(../../images/contacts-icon/contacts-location.png);
+    background-size: cover;
+}
+
+.sitebar-contact-phone-backgraund{
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/contacts-icon/contacts-phone.png);
+    background-size: cover;
+}
+
+.sitebar-contact-email-backgraund{
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/contacts-icon/contacts-email.png);
+    background-size: cover;
+}
+.sitebar-contact-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitebar-contact-list-item:not(:last-child){
     margin-bottom: 10px;
 }
 
 .sitebar-contact-phone-item{
     display: block;
     color: inherit;
-    margin-bottom: 10px;
 }
 
 .sitebar-contact-info-list{
@@ -258,6 +286,3 @@
    
 }
 
-.sitebar-contact-list-item{
-    display: block;
-}
