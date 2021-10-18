@@ -240,13 +240,11 @@
 }
 
 .sitebar-contact-location-item{
-    text-align: center;
     margin-bottom: 10px;
 }
 
 .sitebar-contact-phone-item{
     display: block;
-    text-align: center;
     color: inherit;
     margin-bottom: 10px;
 }
@@ -257,7 +255,7 @@
 }
 
 .sitebar-contact-email-item{
-    text-align: center;
+   
 }
 
 .sitebar-contact-list-item{
