@@ -8,14 +8,17 @@
    text-align: justify;
 }
 
+/* Decoration line */
 
-.hero-section-one{
+.hero-section-line-one{
    width: 600px;
    height: 40px;
    background-color: #4499b9;
    border-radius: 5px 50px 5px 5px;
+   margin-bottom: 10px;
 }
-.hero-section-two{
+
+.hero-section-line-two{
    width: 500px;
    height: 40px;
    background-color: #3375a9;
@@ -23,9 +26,41 @@
 }
 
 
-.hero-section-three{
+.hero-section-line-three{
    width: 400px;
    height: 40px;
    background-color: #1f476b;
    border-radius: 5px 50px 5px 5px;
+   display: flex;
+   align-items: center;
+}
+
+.hero-section-info-about_me-title{
+   color: #fff;
+   text-transform: uppercase;
+   padding-left: 10px;  
+}
+
+.hero-section-info-about_me{
+   margin-bottom: 25px;
+}
+
+/* WORK */
+.hero-section-info-work{
+   height: 300px;
+}
+
+.hero-section-info-work-title{
+   color: #fff;
+   text-transform: uppercase;
+   padding-left: 10px;  
+}
+
+.work-list-item-title{
+   border-right: 1px solid gray;
+}
+
+.hero-section-info-work-list{
+   max-width: 150px;
+   padding-left: 18px;
 }

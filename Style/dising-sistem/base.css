@@ -41,6 +41,10 @@ body {
     margin: 0;
     padding: 0;
   }
+  ul,li {
+    margin: 0;
+    padding: 0;
+  }
   
   .container{
     max-width: 1225px;
