@@ -9,11 +9,15 @@
     padding-right: 15px;
     background-color: rgb(223, 193, 193);
     display: flex;   
-    line-height: 0;
+    text-align: center;
+    
+    
 }
 .header-menu-left-list, .header-menu-rigth-list {
     display: flex;
+    align-items: center;
     padding-left: 0px;
+    margin: 0;
 }
 
 .header-menu-left-list-item{
@@ -26,6 +30,8 @@
     color: #000;
     text-transform: uppercase;
     font-size: 14px;
+    line-height: 25px;
+   
 }
 
 .header-menu-right{
