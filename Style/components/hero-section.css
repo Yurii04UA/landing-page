@@ -163,8 +163,12 @@
    
 }
 
-
-
+.portfolio-box-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Добавить в контакты ссылку на фриланс
