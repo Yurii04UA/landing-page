@@ -146,6 +146,7 @@
 
 .hero-section-info-portfolio-box{
    padding-top: 5px;
+   position: relative;
 }
 
 .portfolio-box-item-image{
@@ -180,7 +181,11 @@
    position: relative;
    top: 43%;
    transform: rotateY(180deg);
-   right: 0;
+   left: 0;
+}
+
+.arrow_left{
+   transform: rotateY(0deg);
 }
 
 .portfolio-box-arrow{
@@ -190,10 +195,44 @@
    transition: all 0.5s ease;
 }
 
+.box-arrow_left{
+   position: relative;
+   left: -30px;
+}
+
 .portfolio-box-arrow:hover{
    background-color: #ccc;
-   opacity: 0.6;
+   opacity: 0.8;
 }
+
+
+
+.portfolio-main-box{
+   opacity: 1  ;
+   visibility: visible;
+}
+
+.main-box-activ{
+   opacity: 0;
+   visibility: hidden;
+}
+
+.portfolio-sub-box{
+   visibility: hidden;
+   opacity: 0;
+   position: absolute;
+   top: 5px;
+   transition: all 0.5s ease;
+}
+
+.sub-box-activ{
+   visibility: visible;
+   opacity: 1;
+}
+
+
+
+
 
 /* Добавить в контакты ссылку на фриланс
 в шапке поменять "скачать св" на "контакты"
