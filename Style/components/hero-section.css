@@ -210,6 +210,7 @@
 .portfolio-main-box{
    opacity: 1  ;
    visibility: visible;
+   transition: all 0.8s ease;
 }
 
 .main-box-activ{
@@ -222,7 +223,7 @@
    opacity: 0;
    position: absolute;
    top: 5px;
-   transition: all 0.5s ease;
+   transition: all 0.8s ease;
 }
 
 .sub-box-activ{
