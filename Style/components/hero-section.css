@@ -151,6 +151,7 @@
 .portfolio-box-item-image{
    width: 200px;
    height: 300px;
+   box-shadow: -5px 2px 12px 0px;
 }
 
 .portfolio-box{
@@ -170,6 +171,24 @@
     align-items: center;
 }
 
+.portfolio-box-arrow-item{
+   position: relative;
+   top: 43%;
+   transform: rotateY(180deg);
+   right: 0;
+}
+
+.portfolio-box-arrow{
+   cursor: pointer;
+   height: 300px;
+   width: 64px;
+   transition: all 0.5s ease;
+}
+
+.portfolio-box-arrow:hover{
+   background-color: #ccc;
+   opacity: 0.6;
+}
 
 /* Добавить в контакты ссылку на фриланс
 в шапке поменять "скачать св" на "контакты"
