@@ -231,8 +231,35 @@
    opacity: 1;
 }
 
+/* Full image */
 
+.portfolio-full{
+   position: fixed;
+   display: block;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0,0,0,0.9);
+   z-index: 110;
+}
 
+.portfolio-full-item{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 95vh;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   cursor:pointer;
+}
+
+.portfolio-full-active{
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.5s ease;
+}
 
 
 /* Добавить в контакты ссылку на фриланс
