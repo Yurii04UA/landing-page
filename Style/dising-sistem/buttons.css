@@ -23,5 +23,5 @@ background: -moz-linear-gradient(-45deg,  #283c63 0%, #15165b 50%, #000dc4 54%, 
 background: -webkit-linear-gradient(-45deg,  #283c63 0%,#15165b 50%,#000dc4 54%,#62b229 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg,  #283c63 0%,#15165b 50%,#000dc4 54%,#62b229 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283c63', endColorstr='#62b229',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+transform: scale(1.05);
 }
