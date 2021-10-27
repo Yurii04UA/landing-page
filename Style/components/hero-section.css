@@ -155,6 +155,7 @@
    box-shadow: -5px 2px 12px 0px;
    margin-bottom: 10px;
    transition: all 0.5s ease;
+   cursor: pointer;
 }
 
 .portfolio-box-item-image:hover{
@@ -233,7 +234,7 @@
 
 /* Full image */
 
-.portfolio-full{
+.portfolio-full-one, .portfolio-full-two, .portfolio-full-three, .portfolio-full-four, .portfolio-full-five, .portfolio-full-six{
    position: fixed;
    display: block;
    top: 0;
@@ -244,7 +245,7 @@
    z-index: 110;
 }
 
-.portfolio-full-item{
+.portfolio-full-item-one, .portfolio-full-item-two, .portfolio-full-item-three, .portfolio-full-item-four, .portfolio-full-item-five, .portfolio-full-item-six{
    position: absolute;
    top: 50%;
    left: 50%;
