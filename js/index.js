@@ -67,3 +67,28 @@ imgFour.addEventListener("click", () => {
 imgFourFull.addEventListener("click", () => {
    imgFourZoomInOut.classList.toggle("portfolio-full-active")
 });
+// Full images Five
+const imgFive = document.querySelector(".portfolio-box-item-image-five");
+const imgFiveZoomInOut = document.querySelector(".portfolio-full-five");
+const imgFiveFull = document.querySelector(".portfolio-full-item-five");
+
+imgFive.addEventListener("click", () => {
+   imgFiveZoomInOut.classList.toggle("portfolio-full-active")
+});
+
+imgFiveFull.addEventListener("click", () => {
+   imgFiveZoomInOut.classList.toggle("portfolio-full-active")
+});
+
+// Full images Six
+const imgSix = document.querySelector(".portfolio-box-item-image-six");
+const imgSixZoomInOut = document.querySelector(".portfolio-full-six");
+const imgSixFull = document.querySelector(".portfolio-full-item-six");
+
+imgSix.addEventListener("click", () => {
+   imgSixZoomInOut.classList.toggle("portfolio-full-active")
+});
+
+imgSixFull.addEventListener("click", () => {
+   imgSixZoomInOut.classList.toggle("portfolio-full-active")
+});
