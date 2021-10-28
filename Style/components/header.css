@@ -7,10 +7,10 @@
     width: inherit;
     padding-left: 315px;
     padding-right: 30px;
-    background-color: rgb(223, 193, 193);
+    background-color: #b2d2ea;
     display: flex;   
     text-align: center;
-    
+    line-height: 35px;
     
 }
 .header-menu-left-list, .header-menu-rigth-list {
@@ -45,3 +45,17 @@
     width: 60%;
 }
 
+.header-search-input{
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#About-me:target, #work:target, #education:target, #portfolio:target{
+    font-style:italic;
+}
+
+#contact-me:target{
+    animation: zoomIn;
+    animation-duration: 1s;
+}

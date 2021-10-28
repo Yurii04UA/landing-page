@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Document</title>
     <link rel="stylesheet" href="./Style/style.css">
 </head>
@@ -20,16 +22,16 @@
                     <nav class="nav">
                         <ul class="header-menu-left-list">
                             <li class="header-menu-left-list-item">
-                                <a href="#" class="header-menu-left-list-item-link">About my</a>
+                                <a href="#About-me" class="header-menu-left-list-item-link">About my</a>
                             </li>
                             <li class="header-menu-left-list-item">
-                                <a href="#" class="header-menu-left-list-item-link">Work experience</a>
+                                <a href="#work" class="header-menu-left-list-item-link">Work experience</a>
                             </li>
                             <li class="header-menu-left-list-item">
-                                <a href="#" class="header-menu-left-list-item-link">Education</a>
+                                <a href="#education" class="header-menu-left-list-item-link">Education</a>
                             </li>
                             <li class="header-menu-left-list-item">
-                                <a href="#" class="header-menu-left-list-item-link">Portfolio</a>
+                                <a href="#portfolio" class="header-menu-left-list-item-link">Portfolio</a>
                             </li>
                         </ul>
                     </nav>
@@ -38,12 +40,12 @@
                     <nav class="nav">
                         <ul class="header-menu-rigth-list">
                             <li class="header-menu-left-list-item">
-                                <a href="#" class="header-menu-left-list-item-link">download cv</a>
+                                <a href="#contact-me" class="header-menu-left-list-item-link">contact me</a>
                             </li>
                         </ul>
                     </nav>
                     <form class="header-search" action="#" method="POST">
-                        <input type="text" placeholder="search by page">
+                        <input class="header-search-input" type="text" placeholder="search by page">
                     </form>
                 </div> <!-- </menu rigth -->
             </div> <!-- </div header -->
@@ -213,7 +215,7 @@
                         </div>
                     </div>
                 </div> <!-- sitebar-hobbies -->
-                <div class="sitebar-contact">
+                <div class="sitebar-contact animate__animated" id="contact-me" >
                     <div class="sitebar-contact-title">
                         <h2 class="sitebar-contact-title-item">contact me
 
@@ -261,11 +263,11 @@
     </section>
     <section class="hero-section container">
         <div class="hero-section-info">
-            <div class="hero-section-info-about_me">
+            <div class="hero-section-info-about_me" id="About-me">
                 <div class="hero-section-line-one">
                     <div class="hero-section-line-two">
                         <div class="hero-section-line-three">
-                            <h2 class="hero-section-info-about_me-title">About me</h2>
+                            <h2 class="hero-section-info-about_me-title" >About me</h2>
                         </div>
                     </div>
                 </div>
@@ -275,7 +277,7 @@
                     am actively studying in this direction and I really like it.
                     I am 29 years old, I live, study and work in the city of Dnipro.</p>
             </div> <!-- </About me -->
-            <div class="hero-section-info-work">
+            <div class="hero-section-info-work" id="work">
                 <div class="hero-section-line-one">
                     <div class="hero-section-line-two">
                         <div class="hero-section-line-three">
@@ -312,7 +314,7 @@
                     </li>
                 </ul>
             </div> <!-- </work -->
-            <div class="hero-section-info-education">
+            <div class="hero-section-info-education" id="education">
                 <div class="hero-section-line-one">
                     <div class="hero-section-line-two">
                         <div class="hero-section-line-three">
@@ -363,7 +365,7 @@
                 </ul>
             </div>
             <!--</ education -->
-            <div class="hero-section-info-portfolio">
+            <div class="hero-section-info-portfolio" id="portfolio">
                 <div class="hero-section-line-one">
                     <div class="hero-section-line-two">
                         <div class="hero-section-line-three">
