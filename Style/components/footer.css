@@ -1,0 +1,14 @@
+.footer-sitbar{
+    height: 50px;
+    background-color: #8080803b;
+    width: 24.5%;
+}
+.footer-hero{
+    height: 50px;
+    background-color: #ecafaf3b;
+    width: 75.5%;
+}
+
+.footer-page{
+    display: flex;
+}

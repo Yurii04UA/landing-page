@@ -25,3 +25,21 @@ background: linear-gradient(135deg,  #283c63 0%,#15165b 50%,#000dc4 54%,#62b229 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283c63', endColorstr='#62b229',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 transform: scale(1.05);
 }
+
+/* button sitbar */
+
+.sitebar-contact-social-button-item{
+   display: block;
+   width: 100px;
+   background-color: #000;
+   color: #4499b9;
+   line-height: 50px;
+   border-radius: 15px;
+   text-align: center;
+   transition: 0.3s ease;
+}
+
+.sitebar-contact-social-button-item:hover{
+   transform: rotateZ(10deg);
+   opacity: 0.8;
+}

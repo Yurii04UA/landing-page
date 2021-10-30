@@ -218,7 +218,7 @@
 .sitebar-contact{
     background-color: #4499b9;
     color: #000;
-    padding: 0 40px 20px 40px;
+    padding: 0 40px 4px 40px;
 }
 
 .sitebar-contact-title{
@@ -286,10 +286,15 @@
 
 /* Social */
 
-.sitebar-contact-social{
+.sitebar-contact-social-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.social-subbox{
+    flex-direction: row-reverse;
 }
 
 .sitebar-contact-social-item{
@@ -317,21 +322,4 @@
     transition: 0.3s ease;
 }
 
-/* button */
-
-.sitebar-contact-social-button-item{
-    display: block;
-    width: 100px;
-    background-color: #000;
-    color: #4499b9;
-    line-height: 50px;
-    border-radius: 15px;
-    text-align: center;
-    transition: 0.3s ease;
-}
-
-.sitebar-contact-social-button-item:hover{
-    transform: rotateZ(10deg);
-    opacity: 0.8;
-}
 
