@@ -304,16 +304,16 @@
     align-items: center;
 }
 
-.sitebar-contact-social-item-telegram{
+.sitebar-contact-social-item-telegram, .sitebar-contact-social-item-facebook, .sitebar-contact-social-item-skype{
     width: 47px;
     height: 47px;   
     display: flex;
     align-items: center;
     transition: 0.3s ease;
 }
-.sitebar-contact-social-item-telegram:hover ,.sitebar-contact-social-item-instagram:hover{
+.sitebar-contact-social-item-telegram:hover ,.sitebar-contact-social-item-instagram:hover, .sitebar-contact-social-item-facebook:hover, .sitebar-contact-social-item-skype:hover{
     transform: scale(1.2);
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .sitebar-contact-social-item-instagram{

@@ -41,5 +41,10 @@ transform: scale(1.05);
 
 .sitebar-contact-social-button-item:hover{
    transform: rotateZ(10deg);
-   opacity: 0.8;
+   opacity: 0.7;
+}
+
+.button-item-freelance:hover{
+   transform: rotateZ(-10deg);
+   opacity: 0.7;
 }

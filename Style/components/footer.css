@@ -1,14 +1,29 @@
 .footer-sitbar{
-    height: 50px;
+    height: 42px;
     background-color: #8080803b;
     width: 24.5%;
+    text-align: center;
 }
 .footer-hero{
-    height: 50px;
     background-color: #ecafaf3b;
     width: 75.5%;
 }
 
 .footer-page{
     display: flex;
+}
+
+.surprise{
+    opacity: 0.5;
+}
+
+.footer-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    border-top: 1px solid grey ;
+    background-color: #8080803b;
+    line-height: 41px;
 }
