@@ -1,3 +1,15 @@
+.menu{
+   position: absolute;
+   left: 6px;
+   top: 35px;
+   padding: 20px;
+}
+
+.menu-item{
+   width: 32px;
+   height: 32px;
+}
+
 .hero-section{
    background-color: #8080803b;
 }
@@ -145,6 +157,7 @@
 /* Portfolio */
 
 .hero-section-info-portfolio-box{
+   padding-left: 25px;
    padding-top: 5px;
    position: relative;
    padding-bottom: 20px;
@@ -264,8 +277,5 @@
 }
 
 
-/* Добавить в контакты ссылку на фриланс
-в шапке поменять "скачать св" на "контакты"
-добавить скачать св в контакты
 
 

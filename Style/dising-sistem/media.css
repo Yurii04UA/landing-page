@@ -1,0 +1,27 @@
+/* @media */
+
+@media screen and (max-width: 1125px) {
+    .sitebar-page{
+        transform: translateX(-100%);
+    }
+    .footer-sitbar{
+        display: none;
+    }
+    .footer-hero{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+    }
+
+    .hero-section-info-portfolio-box{
+        padding-left: 70px;
+    }
+    .hero-section{
+        padding-left: 55px;
+    }
+    .header{
+        padding-left: 45px;
+    }
+
+  }
