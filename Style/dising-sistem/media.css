@@ -1,7 +1,7 @@
 /* @media */
 
 @media screen and (max-width: 1125px) {
-    .sitebar-page{
+    .sitebar-active{
         transform: translateX(-100%);
     }
     .footer-sitbar{
@@ -25,3 +25,7 @@
     }
 
   }
+
+  /* pointer-events: none; */
+  сделать бэк черным
+  некоторые блоки прозрачными и добавить  /* pointer-events: none; */
