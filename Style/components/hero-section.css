@@ -10,6 +10,17 @@
    height: 32px;
 }
 
+.cross{
+   position: fixed;
+   z-index: 1111;
+}
+.cross-menu{
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   pointer-events: painted;
+}
+
 .menu:hover{
    background-color: rgba(128, 128, 128, 0.162);
 }
@@ -284,10 +295,12 @@
 
 /* Active menu */
 
-.hero-section-active, .footer-page{
+.active{
    background-color: rgba(0, 0, 0, 0.711);
    pointer-events: none;
-   
+}
+.active2{
+   background-color: rgba(0, 0, 0, 0.211);
 }
 
 .line-box-active, .info-portfolio-active, .header-active{
@@ -295,7 +308,4 @@
    pointer-events: none;
 }
 
-.header-active{
-   pointer-events: none;
-   background-color: rgba(0, 0, 0, 0.511);
-}
+
