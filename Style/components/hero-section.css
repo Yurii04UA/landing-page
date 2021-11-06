@@ -10,6 +10,10 @@
    height: 32px;
 }
 
+.menu:hover{
+   background-color: rgba(128, 128, 128, 0.162);
+}
+
 .hero-section{
    background-color: #8080803b;
 }
@@ -278,4 +282,20 @@
 
 
 
+/* Active menu */
 
+.hero-section-active, .footer-page{
+   background-color: rgba(0, 0, 0, 0.711);
+   pointer-events: none;
+   
+}
+
+.line-box-active, .info-portfolio-active, .header-active{
+   opacity: 0.2;
+   pointer-events: none;
+}
+
+.header-active{
+   pointer-events: none;
+   background-color: rgba(0, 0, 0, 0.511);
+}
