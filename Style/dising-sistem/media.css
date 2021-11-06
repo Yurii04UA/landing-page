@@ -16,12 +16,14 @@
 
     .hero-section-info-portfolio-box{
         padding-left: 70px;
+        padding-bottom: 26px;
     }
     .hero-section{
         padding-left: 55px;
     }
     .header{
         padding-left: 45px;
+        position: relative;
     }
 
   }
