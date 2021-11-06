@@ -1,30 +1,3 @@
-.menu{
-   position: absolute;
-   left: 6px;
-   top: 35px;
-   padding: 20px;
-}
-
-.menu-item{
-   width: 32px;
-   height: 32px;
-}
-
-.cross{
-   position: fixed;
-   z-index: 1111;
-}
-.cross-menu{
-   width: 32px;
-   height: 32px;
-   border-radius: 50%;
-   pointer-events: painted;
-}
-
-.menu:hover{
-   background-color: rgba(128, 128, 128, 0.162);
-}
-
 .hero-section{
    background-color: #8080803b;
 }
@@ -291,21 +264,5 @@
    transition: all 0.3s ease;
 }
 
-
-
-/* Active menu */
-
-.active{
-   background-color: rgba(0, 0, 0, 0.711);
-   pointer-events: none;
-}
-.active2{
-   background-color: rgba(0, 0, 0, 0.211);
-}
-
-.line-box-active, .info-portfolio-active, .header-active{
-   opacity: 0.2;
-   pointer-events: none;
-}
 
 

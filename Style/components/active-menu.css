@@ -1,0 +1,54 @@
+.menu{
+    position: absolute;
+    left: 6px;
+    top: 45px;
+    padding: 15px;
+    
+ }
+ 
+ .menu-item{
+    width: 32px;
+    height: 32px;
+ }
+ 
+ .cross{
+    position: fixed;
+    z-index: 1111;
+    padding: 15px;
+    top: 45px;
+ }
+ 
+ .cross:hover{
+    background-color: rgba(128, 128, 128, 0.162);
+ }
+ 
+ 
+ .cross-menu{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    pointer-events: painted;
+ }
+ 
+ .menu:hover{
+    background-color: rgba(128, 128, 128, 0.162);
+ }
+
+
+/* Active menu */
+
+/* .active{
+   background-color: rgba(0, 0, 0, 0.711);
+   pointer-events: none;
+}
+.active2{
+   background-color: rgba(0, 0, 0, 0.211);
+   pointer-events: none;
+}
+
+.line-box-active, .info-portfolio-active {
+   opacity: 0.2;
+   pointer-events: none;
+}
+
+ */
