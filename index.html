@@ -16,7 +16,7 @@
 <body>
     <div class="page-wrapper">
         <header class="header-page container ">
-            <div class="header active">
+            <div class="header " id="header"> <!-- повесить клас active -->
                 <div class="header-menu-left">
                     <nav class="nav">
                         <ul class="header-menu-left-list">
@@ -54,7 +54,7 @@
         </header>
         <section class="sitebar-page   container">
             <aside class="sitebar sitebar-active ">
-                <div class="sitebar-main ">
+                <div class="sitebar-main " id="main">
                     <div class="sitebar-main-photo">
                         <img src="./images/Circle-photo.png" alt="photo" class="sitebar-main-photo-item">
                     </div>
@@ -288,16 +288,23 @@
     </div>
     </aside>
     </section>
-    <section class="hero-section active container">
+    <section class="hero-section container"> <!-- повесить клас active -->
         <div class="hero-section-info">
             <div class="menu">
+               <a href="#main">
                 <img src="./images/menu.png" alt="menu" class="menu-item">
+               </a>
             </div>
-            <div class="cross">
+            <div class="cross "> <!-- повесить клас cross-active -->
                 <img class="cross-menu" src="./images/cross-menu.png" alt="cross">
             </div>
+            <div class="arrow-up">
+                <a href="#header" class="arrow-up-link">
+                    <img src="./images/portfolio/portfolio-arrow.png" alt="arrow-up" class="arrow-up-item">
+                </a>
+            </div>
             <div class="hero-section-info-about_me" id="About-me">
-                <div class="line-box opacity-active">
+                <div class="line-box"> <!-- повесить клас opacity-active -->
                     <div class="hero-section-line-one">
                         <div class="hero-section-line-two">
                             <div class="hero-section-line-three">
@@ -314,7 +321,7 @@
                 </p>   
             </div> <!-- </About me -->
             <div class="hero-section-info-work" id="work">
-                <div class="line-box opacity-active">
+                <div class="line-box"> <!-- повесить клас opacity-active -->
                     <div class="hero-section-line-one">
                         <div class="hero-section-line-two">
                             <div class="hero-section-line-three">
@@ -353,7 +360,7 @@
                 </ul>
             </div> <!-- </work -->
             <div class="hero-section-info-education" id="education">
-                <div class="line-box opacity-active">
+                <div class="line-box"> <!-- повесить клас opacity-active -->
                     <div class="hero-section-line-one">
                         <div class="hero-section-line-two">
                             <div class="hero-section-line-three">
@@ -405,8 +412,8 @@
                 </ul>
             </div>
             <!--</ education -->
-            <div class="hero-section-info-portfolio opacity-active" id="portfolio">
-                <div class="line-box opacity-active">
+            <div class="hero-section-info-portfolio" id="portfolio"> <!-- повесить клас opacity-active -->
+                <div class="line-box"> <!-- повесить клас opacity-active -->
                     <div class="hero-section-line-one">
                         <div class="hero-section-line-two">
                             <div class="hero-section-line-three">
@@ -500,8 +507,8 @@
             </div> <!-- </Portfolio -->
         </div> <!-- </ hero-section-info -->
     </section>
-    <footer class="footer-page active container">
-        <div class="footer-sitbar">
+    <footer class="footer-page container"> 
+        <div class="footer-sitbar"> <!-- повесить клас active -->
             <p class="surprise">
                 Hello :)
             </p>

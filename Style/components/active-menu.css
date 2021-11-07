@@ -14,13 +14,18 @@
     height: 32px;
  }
  
+ .menu:hover{
+   background-color: rgba(128, 128, 128, 0.162);
+}
+
  .cross{
     position: fixed;
     z-index: 100;
     padding: 15px;
-    top: 25px;
+    top: 32px;
     left: 320px;
     pointer-events: painted;
+    display: none;
  }
  
  .cross:hover{
@@ -35,8 +40,20 @@
     
  }
  
- .menu:hover{
-    background-color: rgba(128, 128, 128, 0.162);
+ .arrow-up{
+   position: fixed;
+   left: 5px;
+   top: 85%;
+   z-index: 10;
+   pointer-events: painted;
+   padding: 10px 0;
+   background-color: rgba(128, 128, 128, 0.144);
+   border-radius: 15px;
+ }
+ 
+ .arrow-up-item{
+    transform: rotate(90deg);
+    opacity: 0.3;
  }
 
 
@@ -52,3 +69,6 @@
    pointer-events: none;
 }
 
+.cross-active{
+   display: block;
+}

@@ -1,3 +1,4 @@
+// portfolio
 const btnRight = document.querySelector(".portfolio-box-arrow");
 
 const btnLeft = document.querySelector(".box-arrow_left");
@@ -92,3 +93,47 @@ imgSix.addEventListener("click", () => {
 imgSixFull.addEventListener("click", () => {
    imgSixZoomInOut.classList.toggle("portfolio-full-active")
 });
+
+
+// Menu
+
+const btmMenu = document.querySelector(".menu");
+const showSitebar = document.querySelector(".sitebar-active");
+const btnCross = document.querySelector(".cross");
+const visiblyHero = document.querySelector(".hero-section");
+const visiblyHeader = document.querySelector(".header");
+const visiblyFooter = document.querySelector(".footer-page");
+const visiblyPortfolio = document.querySelector(".hero-section-info-portfolio");
+
+let visiblyLines = document.querySelectorAll(".line-box");
+
+// Открываем меню
+btmMenu.addEventListener("click" , () => {
+   showSitebar.classList.toggle("sitebar-active");
+   btnCross.classList.toggle("cross-active");
+   visiblyHero.classList.toggle("active");
+   visiblyHeader.classList.toggle("active");
+   visiblyFooter.classList.toggle("active");
+   visiblyPortfolio.classList.toggle("opacity-active");
+   
+   visiblyLines.forEach(function(el) {
+      el.classList.toggle("opacity-active");
+    });
+
+});
+
+
+ 
+// Закрываем меню
+btnCross.addEventListener("click", () => {
+   showSitebar.classList.toggle("sitebar-active");
+   btnCross.classList.toggle("cross-active");
+   visiblyHero.classList.toggle("active");
+   visiblyHeader.classList.toggle("active");
+   visiblyFooter.classList.toggle("active");
+   visiblyPortfolio.classList.toggle("opacity-active");
+
+   visiblyLines.forEach(function(el) {
+      el.classList.toggle("opacity-active");
+    });
+})
