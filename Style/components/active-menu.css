@@ -43,7 +43,7 @@
  .arrow-up{
    position: fixed;
    left: 5px;
-   top: 85%;
+   top: 75%;
    z-index: 10;
    pointer-events: painted;
    padding: 10px 0;
