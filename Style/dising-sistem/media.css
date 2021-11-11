@@ -30,7 +30,7 @@
     .header-menu-rigth-list .header-menu-left-list-item:first-child{
         display: none;
     }
-};
+}
 
 @media screen and (max-width: 769px) {
     .header{
