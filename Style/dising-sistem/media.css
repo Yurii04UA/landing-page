@@ -30,12 +30,83 @@
     .header-menu-rigth-list .header-menu-left-list-item:first-child{
         display: none;
     }
+
+    .arrow-up{
+        display: block;
+    }
 }
 
-@media screen and (max-width: 769px) {
-    .header{
-        padding-left: 245px;
-    }
+@media screen and (max-width: 1000px) {
+    
+   .portfolio-sub-box{
+       left: 15px;
+   }
+}
+
+@media screen and (max-width: 875px) {
+    
+   .portfolio-main-box{
+       position: relative;
+       left: -25px;
+   }
    
+    .portfolio-sub-box{
+       left: -35px;
+   }
+
+   .portfolio-box-arrow{
+       position: relative;
+       left: -20px;
+   }
+}
+@media screen and (max-width: 806px) {
+    .header a{
+        line-height: 15px;
+    }
+
+    .portfolio-sub-box{
+        left: -60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .portfolio-box-item-image{
+       display: none;
+   }
+
+   .portfolio-sub-box{
+       visibility: visible;
+       opacity: 1   ;
+   }
+
+   .portfolio-box-arrow, .box-arrow_left{
+       display: none;
+    
+   }
+
+   .portfolio-box{
+       display: block;
+   }
+
+   .portfolio-box-item:not(:last-child){
+       margin: 0;
+       padding-bottom: 10px;
+   }
+
+   /* Portfolio */
+
+   .hero-section-info-portfolio-box{
+       display: flex;
+       justify-content: center;
+       padding: 0;
+       left: -20px;
+       padding-bottom: 20px;
+   }
+
+   .portfolio-sub-box{
+       position: relative;
+       top: 0;
+       left: 0  ;
+   }
 }
 
