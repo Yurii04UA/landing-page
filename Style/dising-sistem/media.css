@@ -70,6 +70,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    h2{
+        font-size: 20px;
+    }
+
    .portfolio-box-item-image{
        display: none;
    }
@@ -110,3 +114,12 @@
    }
 }
 
+
+
+
+
+@media screen and (max-width: 360px) {
+    h2{
+        font-size: 16px;
+    }
+}
