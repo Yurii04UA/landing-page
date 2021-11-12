@@ -19,8 +19,8 @@
         padding-bottom: 26px;
     }
     .hero-section{
-        padding-left: 55px;
-        padding-top: 33px;
+        padding-left: 45px;
+        padding-top: 10px;
     }
     .header{
         padding-left: 45px;
@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .header{
+        padding-left: 25px;
+    }
     
    .portfolio-sub-box{
        left: 15px;
@@ -72,6 +75,10 @@
 @media screen and (max-width: 768px) {
     h2{
         font-size: 20px;
+    }
+
+    .education-list-item-title{
+        text-align: left;
     }
 
    .portfolio-box-item-image{
@@ -114,12 +121,73 @@
    }
 }
 
+@media screen and (max-width: 560px) {
+    .header-menu-right{
+        display: none;
+    }
 
+    .hero-section {
+        padding-left: 35px;
+        padding-top: 7px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    h2{
+        font-size: 16px;
+    }
+
+    .hero-section-info-portfolio-box{
+        left: 0%;
+    }
+
+    .cross{
+        left: 295px;
+    }
+
+    .header a{
+        font-size: 13px;
+    }
+
+    .header{
+        padding-left: 10px;
+    }
+
+}
 
 
 
 @media screen and (max-width: 360px) {
     h2{
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .hero-section-info-portfolio-box{
+        left: 12px;
+    }
+
+    .hero-section{
+        padding-left: 15px;
+    }
+
+    .menu{
+        left: -10px;
+    }
+
+    .cross{
+        left: 270px;
+    }
+
+    .education-list-item-box, .hero-section-info-about_me,.education-list-item-text, .hero-section-info-work-list-item{
+        font-size: 14px;
+    }
+
+    .header a{
+        font-size: 12px;
+    }
+    .header-menu-left-list-item:not(:last-child) {
+        margin-right: 10px;
     }
 }
+
