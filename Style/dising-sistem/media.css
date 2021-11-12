@@ -126,6 +126,12 @@
         display: none;
     }
 
+    .header-menu-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .hero-section {
         padding-left: 35px;
         padding-top: 7px;
@@ -150,10 +156,7 @@
         font-size: 13px;
     }
 
-    .header{
-        padding-left: 10px;
-    }
-
+    
 }
 
 
