@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  }  /* Плавный скролинг */
+
 body {
     margin: 0;
     padding: 0;
@@ -59,3 +63,5 @@ body {
     padding-top: 55px;
     align-items: center;
 }
+
+

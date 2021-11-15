@@ -50,11 +50,13 @@
    background-color: rgba(128, 128, 128, 0.144);
    border-radius: 15px;
    display: none;
+   scroll-behavior: smooth;
  }
  
  .arrow-up-item{
     transform: rotate(90deg);
     opacity: 0.3;
+    scroll-behavior: smooth
  }
 
 
