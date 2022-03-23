@@ -43,6 +43,8 @@
     max-width: 200px;
     text-transform: uppercase;
     text-align: center;
+
+    
 }
 
 .sitebar-main-text-item{
@@ -53,6 +55,8 @@
     border: 1px solid rgb(155, 152, 152);
     background-color: rgb(209, 207, 207);
     margin-bottom: 50px;
+
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
 }
 /* sitebar Skills */
 
@@ -128,18 +132,19 @@
 
 /* SKILLS LEVEL CIRCLES*/
 
-.skills-level-html .skills-box-level-item:nth-child(-n+3){
+.skills-level-html .skills-box-level-item:nth-child(-n+5){
     background-color: white;
 }
-.skills-level-css .skills-box-level-item:nth-child(-n+3){
+.skills-level-css .skills-box-level-item:nth-child(-n+5){
     background-color: white;
 }
-.skills-level-java_script .skills-box-level-item:nth-child(-n+1){
+.skills-level-java_script .skills-box-level-item:nth-child(-n+4){
     background-color: white;
 }
-/* .skills-level-react .skills-box-level-item:nth-child(-n+1){
+ .skills-level-react .skills-box-level-item:nth-child(-n+1){
     background-color: white;
 }
+/*
 .skills-level-node .skills-box-level-item:nth-child(-n+1){
     background-color: white;
 }

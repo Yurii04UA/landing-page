@@ -15,6 +15,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .header-menu-left-list, .header-menu-rigth-list {
     display: flex;
